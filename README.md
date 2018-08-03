@@ -12,12 +12,15 @@ echarts sample
 3.echarts依照視窗大小動態調整圖	
 ```myChart.resize()```
 如果有多組charts需調整需用以下方法
-```setTimeout(function (){
-    	    window.onresize = function () {
+```
+setTimeout(function (){
+	window.onresize = function () {
     	    	myChart1.resize();
     	    	myChart2.resize();    	    	
     	    }
-    	},200)```
+    	},200)
+```
+
 
 ## reference
 http://echarts.baidu.com/index.html
